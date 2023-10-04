@@ -49,7 +49,7 @@ const App = () => {
         <div className="App">
           <Routes>
             <Route path="/weatherApp" element={<WeatherApp />} />
-            <Route path="/" element={<Navigate replace to="/taskManager" />} />
+            <Route path="/" element={<Navigate replace to="/weatherApp" />} />
           </Routes>
         </div>
       </Router>
